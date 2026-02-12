@@ -130,7 +130,7 @@ This package defines all zkSNARK circuits and related artifacts used by the syst
 - Bind proofs to specific records or policies to prevent reuse
 - Keep circuit scope minimal and verifiable within on-chain constraints
 
-### packages/d4gen-sdk - Shared SDK and Infrastructure Layer
+### packages/ttgen-sdk - Shared SDK and Infrastructure Layer
 
 This package provides a unified TypeScript SDK used by both frontend and backend code.
 
@@ -182,7 +182,7 @@ pnpm --filter ./packages/contracts check          # build + test
 ```
 
 Current example module:
-- `d4gen::ehr` with record creation, consent update, share, and delete flows
+- `ttgen::ehr` with record creation, consent update, share, and delete flows
 - Includes Move unit tests that pass with `pnpm --filter ./packages/contracts check`
 
 ### `packages/zk-circuits` (Groth16 / circom / snarkjs)
@@ -211,14 +211,14 @@ Main generated outputs:
 - `packages/zk-circuits/artifacts/private_multiplier/verification_key.json`
 - `packages/zk-circuits/artifacts/private_multiplier/verification_key.move.json`
 
-### `packages/d4gen-sdk` (TypeScript SDK)
+### `packages/ttgen-sdk` (TypeScript SDK)
 
 Current SDK workspace is scaffolded and ready for next implementation phase.
 
 ```bash
-pnpm --filter ./packages/d4gen-sdk build
-pnpm --filter ./packages/d4gen-sdk test
-pnpm --filter ./packages/d4gen-sdk typecheck
+pnpm --filter ./packages/ttgen-sdk build
+pnpm --filter ./packages/ttgen-sdk test
+pnpm --filter ./packages/ttgen-sdk typecheck
 ```
 
 ### `apps/prover` (Fallback Prover Service)
