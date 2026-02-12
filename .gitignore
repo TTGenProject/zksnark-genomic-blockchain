@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
 .pnpm-store/
+.next/
 
 # Build outputs
 .next/
@@ -42,3 +43,5 @@ coverage/
 
 # Misc
 *.log
+
+.env
