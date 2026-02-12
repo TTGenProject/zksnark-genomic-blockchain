@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/ad/zksnark-genomic-blockchain/apps/landing/src/components/theme-provider.tsx"],"sourcesContent":["'use client'\n\nimport type { ComponentProps } from 'react'\n\nimport { ThemeProvider as NextThemesProvider } from 'next-themes'\n\nexport const ThemeProvider = ({ children, ...props }: ComponentProps<typeof NextThemesProvider>) => {\n  return <NextThemesProvider {...props}>{children}</NextThemesProvider>\n}\n"],"names":[],"mappings":";;;;;AAIA;AAJA;;;AAMO,MAAM,gBAAgB,CAAC,EAAE,QAAQ,EAAE,GAAG,OAAkD;IAC7F,qBAAO,oUAAC,kRAAkB;QAAE,GAAG,KAAK;kBAAG;;;;;;AACzC;KAFa"}}]
+}

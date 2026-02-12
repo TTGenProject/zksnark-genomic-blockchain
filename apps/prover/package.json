@@ -1,0 +1,14 @@
+{
+  "name": "@d4gen/prover",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/server.mjs",
+    "build": "echo \"No build step for apps/prover yet\"",
+    "start": "node ./src/server.mjs",
+    "lint": "echo \"Configure linting inside apps/prover\"",
+    "test": "echo \"No tests configured for apps/prover yet\"",
+    "typecheck": "echo \"Configure typecheck inside apps/prover\""
+  }
+}
